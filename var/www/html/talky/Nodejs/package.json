@@ -1,0 +1,36 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 kill && pm2 start app.js --watch && pm2 log",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mysql": "^2.18.1",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "fcm-node": "^1.5.2",
+    "request": "^2.81.0",
+    "sqlstring": "^2.3.2",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

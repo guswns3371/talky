@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef8607fd-1d98-4a1f-82ef-d808e2c169c0" name="talky" url="http://13.125.241.43/">
+        <fileTransfer accessType="SFTP" host="13.125.241.43" port="22" sshConfigId="fe1d7c40-7c90-4363-89e7-55aaa9552d89" sshConfig="root@13.125.241.43:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
